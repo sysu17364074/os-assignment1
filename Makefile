@@ -1,4 +1,4 @@
-all : doh cons prod 
+all : dph cons prod 
 dph : doh.c
     gcc -g doh.c -o -lpthread
 cons : cons.c
