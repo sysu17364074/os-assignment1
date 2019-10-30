@@ -1,6 +1,6 @@
-all : dph cons prod my call
-dph : doh.c
-    gcc -g doh.c -o -lpthread
+all : dph cons prod mycall
+dph : dph.c
+    gcc -g dph.c -o -lpthread
 cons : cons.c
     gcc -g cons.c -o -lpthread
 prod : prod.c
