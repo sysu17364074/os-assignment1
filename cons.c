@@ -26,7 +26,7 @@ int remove_item(void* param) {
 		return -1;
 	}
 	else {
-		int item = data[shared -> data_num - 1];
+		int item = shared -> data[shared -> data_num - 1];
 		printf("[Consumer] Thread id : %lu, data : %d\n", pthread_self(), item);
 		shared -> data[shared -> data_num - 1] = 0;
 		shared -> data_num --;
